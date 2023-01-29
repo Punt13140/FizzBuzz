@@ -4,13 +4,13 @@ function fizzbuzz(int $n): void
 {
     for ($i = 1; $i <= $n; $i++) {
         if ($i % 15 === 0) {
-            echo "FizzBuzz\n";
+            echo "FizzBuzz" . PHP_EOL;
         } elseif ($i % 3 === 0) {
-            echo "Fizz\n";
+            echo "Fizz" . PHP_EOL;
         } elseif ($i % 5 === 0) {
-            echo "Buzz\n";
+            echo "Buzz" . PHP_EOL;
         } else {
-            echo "$i\n";
+            echo $i . PHP_EOL;
         }
     }
 }
